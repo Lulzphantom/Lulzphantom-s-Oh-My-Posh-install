@@ -1,6 +1,6 @@
 #requires -Version 2 -Modules posh-git
 
-$displayUser = 'displayUserName'
+$displayUser = ' displayUserName'
 
 function Write-Theme {
 
@@ -84,4 +84,9 @@ $sl.Colors.WithBackgroundColor = [ConsoleColor]::DarkRed
 $sl.Colors.VirtualEnvBackgroundColor = [System.ConsoleColor]::Red
 $sl.Colors.VirtualEnvForegroundColor = [System.ConsoleColor]::White
 $sl.Colors.BackgroundUser = [System.ConsoleColor]::Orange
+
+
+
+
+
 
