@@ -9,5 +9,5 @@
 ```
     PS> Set-ExecutionPolicy Unrestricted -Scope CurrentUser
     PS> ls -Recurse *.ps*1 | Unblock-File
-    PS> install.ps1
+    PS> ./install.ps1
 ```
